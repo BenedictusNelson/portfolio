@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Benedictus Nelson — personal learning archive. Computer Science student at ITB." />
+  <title>Benedictus Nelson — Learning Portfolio</title>
+
+  <!-- accent dot -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32'%3E%3Ccircle cx='16' cy='16' r='8' fill='%236aa3ff'/%3E%3C/svg%3E" />
+
+  <link rel="preload" href="images/profile.jpg" as="image" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- fixed navigation -->
+  <header class="site-header" role="banner">
+    <nav class="nav container" aria-label="Primary">
+      <a class="brand" href="#top" aria-label="Go to top">
+        <span class="brand__dot" aria-hidden="true"></span>
+        <span class="brand__text">Benedictus Nelson</span>
+      </a>
+        <ul class="nav__links" role="list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- hero/about -->
+    <section id="about" class="hero" aria-label="About">
+      <div class="hero__content container">
+        <figure class="hero__media">
+          <img src="images/profile.jpg" alt="Portrait of Benedictus Nelson" width="560" height="700" />
+        </figure>
+
+        <div class="hero__text">
+          <h1 class="hero__title">Computer Science Student at ITB</h1>
+          <p class="hero__intro">
+            I’m Benedictus Nelson, a Computer Science student at ITB and 
+            this site is a simple honest archive of my learning journey in web development and design.
+          </p>
+
+          <blockquote class="hero__quote">
+            <p>
+              “There is an artistic beauty in a simplicity that functions well. 
+              This is proof that the most effective design is often the simplest.”
+            </p>
+          </blockquote>
+
+          <!-- icons -->
+          <div class="social" aria-label="Quick contact">
+            <a class="social__link" href="mailto:13523150@std.stei.itb.ac.id" aria-label="Email">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5L4 8V6l8 5 8-5v2Z"/>
+              </svg>
+              <span>Email</span>
+            </a>
+            <a class="social__link" href="https://www.linkedin.com/in/benedictus-nelson-6249b3212/" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"/>
+              </svg>
+              <span>LinkedIn</span>
+            </a>
+            <a class="social__link" href="https://www.instagram.com/benedictusnelson" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.43.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.43.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41-.56-.22-.96-.48-1.38-.9-.42-.42-.68-.82-.9-1.38-.16-.43-.36-1.06-.41-2.23-.06-1.27-.07-1.65-.07-4.85s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.43-.16 1.06-.36 2.23-.41 1.27-.06 1.65-.07 4.85-.07zm0 5.84a4 4 0 100 8 4 4 0 000-8zm0 6.6a2.6 2.6 0 110-5.2 2.6 2.6 0 010 5.2zm5.23-6.83a.93.93 0 11-1.86 0 .93.93 0 011.86 0z"/>
+              </svg>
+              <span>Instagram</span>
+            </a>
+            <a class="social__link" href="https://www.tiktok.com/@benedictusnelson" target="_blank" rel="noopener" aria-label="TikTok">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-5.2 1.74 2.89 2.89 0 012.31-4.64 2.93 2.93 0 01.88.13V9.4a6.84 6.84 0 00-.88-.05A6.33 6.33 0 005 20.1a6.34 6.34 0 0010.86-4.43v-7a8.16 8.16 0 004.77 1.52v-3.4a4.85 4.85 0 01-1-.1z"/>
+              </svg>
+              <span>TikTok</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- line accent -->
+      <div class="hero__accent" aria-hidden="true"></div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="projects container" aria-label="Projects">
+      <h2>Projects</h2>
+      <p class="projects__coming">Coming soon...</p>
+    </section>
+
+    <!-- mini readme -->
+    <section class="readme container" aria-label="Build information">
+      <p><strong>Built with semantic HTML &amp; CSS only.</strong> No frameworks, no JavaScript.</p>
+    </section>
+  </main>
+</body>
+</html>
